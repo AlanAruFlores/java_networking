@@ -1,0 +1,11 @@
+package ar.com.gestor.servidor;
+
+import java.net.ServerSocket;
+
+public class Servidor {
+	
+	private final Integer PUERTO = 3335;
+	private final ServerSocket sckServidor;
+	
+	
+}

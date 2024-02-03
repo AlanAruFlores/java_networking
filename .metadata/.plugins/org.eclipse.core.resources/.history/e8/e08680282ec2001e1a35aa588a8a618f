@@ -1,0 +1,8 @@
+package ar.com.gestor.dao;
+
+import java.sql.Connection;
+
+public interface IDAOManager {
+	public IEmpleadoDAO getEmpleadoDao();
+	public Connection getConexion();
+}

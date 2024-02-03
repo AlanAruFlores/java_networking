@@ -1,0 +1,16 @@
+package ar.com.gestor.model;
+
+import java.io.Serializable;
+
+public class Empleado implements Serializable{
+	
+	
+	private Integer dni;
+	private String nombre;
+	private String apellido;
+	private Integer edad;
+	private Float sueldo;
+	
+	
+	
+}

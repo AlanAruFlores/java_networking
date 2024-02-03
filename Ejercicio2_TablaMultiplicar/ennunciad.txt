@@ -1,0 +1,3 @@
+Realizar ejercicio donde el servidor mande un numero random
+al cliente. Luego el cliente debera mostrar la tabla de multiplicacion
+del mismo.

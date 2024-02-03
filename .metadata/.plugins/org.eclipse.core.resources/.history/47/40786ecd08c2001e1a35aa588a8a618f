@@ -1,0 +1,9 @@
+package ar.com.gestor.model;
+
+public class Empleado {
+	private Integer dni;
+	private String nombre;
+	private String apellido;
+	private Integer edad;
+	private Float sueldo;
+}

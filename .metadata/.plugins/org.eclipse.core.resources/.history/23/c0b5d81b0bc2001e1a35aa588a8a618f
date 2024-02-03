@@ -1,0 +1,9 @@
+package ar.com.gestor.dao;
+
+import java.util.List;
+
+public interface IDAO <T,E>{
+	public Boolean insertar(T obj);
+	public T seleccionPorId();
+	public List<T> seleccinarTodo(E dni);
+}

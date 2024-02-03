@@ -1,0 +1,3 @@
+Hacer que el servidor mande un arreglo y lo reciba el cliente.
+Cuando lo reciba que imprima en su pantalla.
+

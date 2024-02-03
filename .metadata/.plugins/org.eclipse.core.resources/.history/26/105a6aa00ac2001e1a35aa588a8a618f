@@ -1,0 +1,6 @@
+package ar.com.gestor.dao;
+
+public interface IDAO <T>{
+	public Boolean insertar(T obj);
+	public List<T> seleccinarTodo();
+}

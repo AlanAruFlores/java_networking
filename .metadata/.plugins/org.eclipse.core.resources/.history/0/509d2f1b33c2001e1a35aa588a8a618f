@@ -1,0 +1,7 @@
+package ar.com.gestor.servidor;
+
+public class Servidor {
+	
+	private final Integer PUERTO = 3335;
+	private final Socket sckServidor
+}

@@ -1,0 +1,8 @@
+package ar.com.gestor.cliente;
+
+public class Cliente {
+	
+	private final Integer PUERTO_SERVIDOR = 3335;
+	private final String HOST = "localhost";
+	
+}

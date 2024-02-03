@@ -1,0 +1,7 @@
+package ar.com.gestor.dao;
+
+import ar.com.gestor.model.Empleado;
+
+public interface IEmpleadoDAO implements IDAO<Empleado, Integer>{
+
+}

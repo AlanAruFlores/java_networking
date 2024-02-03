@@ -1,0 +1,27 @@
+package ar.com.gestor.model;
+
+import java.io.Serializable;
+
+public class Empleado implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	
+	
+	private Integer dni;
+	private String nombre;
+	private String apellido;
+	private Integer edad;
+	private Float sueldo;
+	
+	public Empleado(Integer dni, String nombre, String apellido, Integer edad, Float sueldo) {
+		super();
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.edad = edad;
+		this.sueldo = sueldo;
+	}
+	
+	
+	
+}

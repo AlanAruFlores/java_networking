@@ -1,0 +1,39 @@
+package ar.com.gestor.dao;
+
+import java.util.List;
+
+import ar.com.gestor.model.Empleado;
+
+public class IEmpleadoDAO implements IDAO<Empleado, Integer>{
+
+	@Override
+	public Boolean insertar(Empleado obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Empleado seleccionPorDni(Integer dni) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Empleado> seleccinarTodo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean actualizarEmpleado(Empleado obj) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boolean eliminarPorDni(Integer dni) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

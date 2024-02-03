@@ -1,0 +1,2 @@
+Ahora en este proyecto vamos a ver como podemos asignar 
+varios clientes a la misma vez usando Hilos y Sockets.

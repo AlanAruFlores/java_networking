@@ -1,0 +1,23 @@
+package ar.com.gestor.servidor;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Servidor {
+
+	private final Integer PUERTO = 3335;
+
+	private ServerSocket sckServidor;
+	private Socket sckCliente;
+
+	public void ejecutar() {
+		try {
+			sckServidor = new ServerSocket(PUERTO);
+			sckCliente = sckServidor.accept();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

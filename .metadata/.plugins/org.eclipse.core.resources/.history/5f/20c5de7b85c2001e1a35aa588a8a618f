@@ -1,0 +1,22 @@
+package ar.com.gestor.cliente;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.ObjectInputStream;
+import java.net.Socket;
+
+public class Cliente {
+	
+	private Socket sck;
+	private DataInputStream lectura;
+	private ObjectInputStream lecturaObj;
+	private DataOutputStream escritura;
+	
+	
+	private final Integer PUERTO_SERVIDOR = 3335;
+	private final String HOST = "localhost";
+
+	public void ejecutar() {
+		
+	}
+}
